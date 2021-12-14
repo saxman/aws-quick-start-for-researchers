@@ -82,7 +82,7 @@ To create a new EC2 instance, follow these steps:
 1. Open the Amazon EC2 console by going to https://console.aws.amazon.com/ec2/
 2. From the EC2 Console, click **Launch Instance**. 
 3. The *Choose an Amazon Machine Image (AMI)* page displays a list of basic configurations called Amazon Machine Images (AMIs) that serve as templates for your instance. Click **Select** next to the *Amazon Linux 2 AMI* (first one).
-4. On the *Choose an Instance Type* **** page, choose **t2.micro** as the hardware configuration of your instance, which is free-tier eligible, and click **Review and Launch**. 
+4. On the *Choose an Instance Type* page, choose **t2.micro** as the hardware configuration of your instance, which is free-tier eligible, and click **Review and Launch**. 
 5. On the *Review Instance Launch* page, Click **Launch**.
 6. In the *Select an existing key pair or create a new key pair* dialog box, choose **Create a new key pair**, enter a name for the key pair, and then choose **Download Key Pair**. This is the only chance for you to save the private key file, so be sure to download it. Save the private key file in a safe place. You can use C:\user\yourusername.ssh\myfirstkey.pem if you are on a Windows machine, and ~/.ssh/myfirstkey.pem if you are on a Mac or Linux machine. You need to provide the name of your key pair when you launch an instance, and the corresponding private key each time you connect to the instance. 
 7. A confirmation page lets you know that your instance is launching. Choose **View Instances** to close the confirmation page and return to the console.
