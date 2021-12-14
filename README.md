@@ -16,18 +16,18 @@ See also:
 
 ## Accessing the AWS Cloud
 
-The AWS (Web) Management Console is the simplest and most common way for researchers configure and interact with AWS services. In order to begin using AWS services, you will need to use the console to create an AWS account, and to provide payment information (e.g. a credit card) that AWS will charge if you enable an AWS service *and* the service usage exceed the free tier limit that is associated with the service. Most AWS services provide a certain amount of usage, without cost, for evaluating the service, which is called the service’s *free tier.* **** Monitoring your free tier usage is covered in the next section.
+The AWS (Web) Management Console is the simplest and most common way for researchers configure and interact with AWS services. In order to begin using AWS services, you will need to use the console to create an AWS account, and to provide payment information (e.g. a credit card) that AWS will charge if you enable an AWS service *and* the service usage exceed the free tier limit that is associated with the service. Most AWS services provide a certain amount of usage, without cost, for evaluating the service, which is called the service’s *free tier.* Monitoring your free tier usage is covered in the next section.
 
 To create a new AWS account, follow the these steps using your web browser:
 
 1. Open the [Amazon Web Services (AWS) home page](https://aws.amazon.com/).
-2. Choose *Create an AWS Account*.
+2. Choose **Create an AWS Account**.
 
 Note: If you signed in to AWS recently, choose Sign in to the Console. If Create a new AWS account isn't visible, first choose Sign in to a different account, and then choose Create a new AWS account.
 
-1. Enter your email address, password, AWS account name, and then choose *Continue*. Be sure that you enter your account information correctly, especially your email address. If you enter your email address incorrectly, you can't access your account.
+1. Enter your email address, password, AWS account name, and then choose **Continue**. Be sure that you enter your account information correctly, especially your email address. If you enter your email address incorrectly, you can't access your account.
 
-Once you’ve provide the required information and are logged into the AWS Management Console, you can start exploring the services that are available on AWS, by either selecting the *Services* button on the top-left of the console interface, or by entering a service name in the search box at the top. AWS offers over 200 services, ranging from lower-level workstation and server environments (e.g. Amazon EC2), to higher-level services, such as fully automated natural language processing (Amazon Comprehend). For this guide, we will focus on the primary AWS services that researchers find to be the most useful.
+Once you’ve provide the required information and are logged into the AWS Management Console, you can start exploring the services that are available on AWS, by either selecting the **Services** button on the top-left of the console interface, or by entering a service name in the search box at the top. AWS offers over 200 services, ranging from lower-level workstation and server environments (e.g. Amazon EC2), to higher-level services, such as fully automated natural language processing (Amazon Comprehend). For this guide, we will focus on the primary AWS services that researchers find to be the most useful.
 
 For more information, see:
 
@@ -44,7 +44,7 @@ AWS automatically provides free tier usage alerts using AWS Budgets to help you 
 
 For more information, see:
 
-* [What is AWS Billing and Cost Management?](http://What is AWS Billing and Cost Management?)
+* [What is AWS Billing?](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-what-is.html)
 * [Using the AWS Free Tier](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/billing-free-tier.html)
 * [Getting started with AWS Cost Explorer](https://aws.amazon.com/blogs/aws-cloud-financial-management/getting-started-with-aws-cost-explorer-part-1/)
 
@@ -89,10 +89,9 @@ To create a new EC2 instance, follow these steps:
 
 Once your EC2 instance’s state is listed as *Running*, you can connect to the instance by following these steps:
 
-1. Select the instances *instance id.*
+1. Select the instance's identifier within the *instance id* column.
 2. On the *Instance summary* page, click the **Connect** button.
-3. On the *Connect to instance* page, click the **Connect** button**.
-    **
+3. On the *Connect to instance* page, click the **Connect** button.
 
 For additional hands-on instructions on setting up and using EC2 instances, see the [Amazon EC2 Workshop](https://ec2-immersionday.workshop.aws/).
 
