@@ -13,6 +13,7 @@ See also:
 * [Research and Technical Computing on AWS](https://aws.amazon.com/government-education/research-and-technical-computing/)
 * [Five ways to use AWS for research (starting right now)](https://aws.amazon.com/blogs/publicsector/five-ways-use-aws-research-starting-now/)
 * [No-cost online AWS training pathway for researchers and research IT](https://aws.amazon.com/blogs/publicsector/no-cost-online-aws-training-pathway-researchers-research-it/)
+* [Overview of Amazon Web Services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html)
 
 ## Accessing the AWS Cloud
 
