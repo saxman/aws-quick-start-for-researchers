@@ -33,6 +33,7 @@ For more information, see:
 
 * [How do I create and activate a new AWS account?](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)
 * [What is the AWS Management Console?](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/learn-whats-new.html)
+* [Setting up your AWS Environment: Getting Started Guide](https://aws.amazon.com/getting-started/guides/setup-environment/)
 
 ## Managing expenses
 
